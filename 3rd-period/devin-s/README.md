@@ -23,5 +23,5 @@ This project showcases what I have learned throughout the year in AP Computer Sc
   A two-player Pong game using the HTML5 canvas where players control paddles and compete to score points by hitting the ball past the opponent.
 
 ## Links:
-- GitHub repository  
+- GitHub repository(https://github.com/Devdadude/Final-Project)  
 - Live Website
