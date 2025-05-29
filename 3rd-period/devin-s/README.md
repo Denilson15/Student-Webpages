@@ -24,4 +24,4 @@ This project showcases what I have learned throughout the year in AP Computer Sc
 
 ## Links:
 - [GitHub repository](https://github.com/Devdadude/Final-Project)  
-- Live Website
+- [Live Website](https://devdadude.github.io/Final-Project/)
