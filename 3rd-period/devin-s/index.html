@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Game Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>My Game Portfolio</h1>
+    <nav>
+      <a href="#cookieClicker">Cookie Clicker</a>
+      <a href="#pong">Pong</a>
+      <a href="#hangman">Hangman</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="aboutMe" class="about-section">
+      <h2>About Me</h2>
+      <p>Hello! I am Devin Santos, a junior at Mt. Eden High School. This is my first year trying coding. Overall, this year has taught me so much. Working with C++ was very difficult at first but I soon found out that I could learn it pretty quickly. Just when I started getting comfortable with C++, we started using Javascript. This turned out to be even more difficult for me. But, once again after some time I was able to pick it up. Overall, I think it was a sucessful year because I've learned a whole bunch.</p>
+    </section>
+
+    <section id="cookieClicker" class="game-section">
+  <h2>Cookie Clicker</h2>
+  <p>Click the cookie to earn cookies!</p>
+  <button id="cookieBtn">🍪 Click Me!</button>
+  <p>Cookies: <span id="cookieCount">0</span></p>
+
+  <button id="buyAutoClickerBtn">Buy Auto Clicker (10 cookies)</button>
+  <p>Auto Clickers Owned: <span id="autoClickerCount">0</span></p>
+</section>
+
+    <section id="pong" class="game-section">
+      <h2>Pong</h2>
+      <p>Classic 2-player Pong game. Use W/S for the left paddle, and Up/Down arrows for the right paddle to hit the ball.</p>
+      <canvas id="pongCanvas" width="600" height="400"></canvas>
+      <p>Use W/S for left paddle, Up/Down arrows for right paddle</p>
+    </section>
+
+    <section id="hangman" class="game-section">
+      <h2>Hangman</h2>
+      <p>Guess the hidden word one letter at a time. Choose wisely and avoid getting hanged!</p>
+      <p id="wordDisplay">_ _ _ _ _</p>
+      <input type="text" id="letterInput" maxlength="1" />
+      <button id="guessBtn">Guess</button>
+      <p>Wrong guesses: <span id="wrongGuesses"></span></p>
+      <p>Attempts left: <span id="attemptsLeft">6</span></p>
+    </section>
+  </main>
+
+  <footer>
+    <h3>Connect with me</h3>
+    <ul class="socials">
+      <li><a href="https://www.snapchat.com/add/devsantos22" target="_blank" rel="noopener noreferrer">Snapchat</a></li>
+      <li><a href="https://www.instagram.com/devdadude22" target="_blank" rel="noopener noreferrer">Instagram</a></li>
+    </ul>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
